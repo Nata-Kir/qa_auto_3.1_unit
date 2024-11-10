@@ -1,6 +1,6 @@
 const calculateBonus = require ('./3_1_test.js')
 
-test('Bonus for >50', ()=> {
+test('Bonus for <50', ()=> {
     expect (calculateBonus(1,50)).toEqual (51)
 });
 test('Bonus for <50', ()=> {
